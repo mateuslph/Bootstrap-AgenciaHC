@@ -1,6 +1,6 @@
 /*Gerais*/
 body {
-    font-family: 'roboto', 'sans-serif';
+    font-family: 'roboto', sans-serif;
 }
 
 .row {
@@ -43,6 +43,6 @@ header, .navbar {
     color: #ffffff;
 }
 
-.navbar-expand-lg .navbar-nav .navbar-links {
+.navbar-expand-lg .navbar-nav .nav-link {
     padding: 1rem .8rem;
 }
