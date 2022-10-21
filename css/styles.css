@@ -1,3 +1,48 @@
-.navbar-nav a {
-    color: black;
+/*Gerais*/
+body {
+    font-family: 'roboto', 'sans-serif';
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444444;
+    font-size: 14px;
+}
+
+/*Barra de Navegacao*/
+header, .navbar {
+    background-color: #353041;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+#navbar-links a {
+    color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-nav .navbar-links {
+    padding: 1rem .8rem;
 }
