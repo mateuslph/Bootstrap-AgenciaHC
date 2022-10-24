@@ -1,4 +1,4 @@
-/*Gerais*/
+/* Gerais */
 body {
     font-family: 'roboto', sans-serif;
 }
@@ -16,7 +16,7 @@ p, li {
     font-size: 14px;
 }
 
-/*Barra de Navegacao*/
+/* Barra de Navegacao */
 header, .navbar {
     background-color: #353041;
 }
@@ -47,7 +47,7 @@ header, .navbar {
     padding: 1rem .8rem;
 }
 
-/*Slider*/
+/* Slider */
 
 .container-fluid {
     padding: 0;
@@ -94,4 +94,47 @@ header, .navbar {
 
 .carousel-indicators .active {
     background-color: #65DAF9;
+}
+
+/* Sobre a empresa */
+
+#abaut-area {
+    background-color: #F9F9F9;
+}
+
+.main-title {
+    color: #444444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #65DAF9;
+    margin-right: 15px;
 }
