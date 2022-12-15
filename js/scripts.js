@@ -71,7 +71,7 @@ $(document).ready(function () {
 
         let scroll = $(window).scrollTop();
 
-        if (scroll < (dataAreaOffset.top - 200) && stop == 0) {
+        if (scroll < (dataAreaOffset.top - 500) && stop == 0) {
             circleA.animate(1.0);
             circleB.animate(1.0);
             circleC.animate(1.0);
@@ -86,6 +86,7 @@ $(document).ready(function () {
     setTimeout(function() {
 
         $('#data-area').parallax( {imageSrc: 'img/cidadeparallax.png'} );
+        $('#apply-area').parallax( {imageSrc: 'img/pattern.png'} );
 
     }, 250);
 
